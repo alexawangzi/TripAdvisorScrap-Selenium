@@ -2,11 +2,15 @@
 
 A Selenium spider that scraps restaurants information in London.
 
-Note: this project is used to farmiliarize myself with Selenium. In pratice Selenium is slow and an overkill for this task. Refer to https://github.com/alexawangzi/TripAdvisorScrap-Scrappy for a more pratical spider built with Scrapy.
+Note: 
+* This code is inspired by the Selenium tutorial by Robert Abela at https://app.slack.com/client/T01HUECMN6T/C01JD5BF7MM/thread/C01JD5BF7MM-1611738840.018900
+* This project is used to farmiliarize myself with Selenium. In pratice Selenium is slow and an overkill for this task. Refer to https://github.com/alexawangzi/TripAdvisorScrap-Scrappy for a more pratical spider built with Scrapy.
 
 
 ### About
-The spide will scrap top rated restaurants in London, as listed on https://www.tripadvisor.co.uk/Restaurants-g186338-London_England.html
+The spider will scrap top rated restaurants in London, as listed on https://www.tripadvisor.co.uk/Restaurants-g186338-London_England.html
+
+This spider uses Selenium and chrome driver. By default the chrome driver will run in headless mode. 
 
 The results will be written as a .csv file named with the restaurant's name. Here are some sample entries from BuenAyre.csv:
 
